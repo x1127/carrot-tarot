@@ -1,0 +1,44 @@
+{
+  "collectionName": "spreads",
+  "info": {
+    "singularName": "spread",
+    "pluralName": "spreads",
+    "displayName": "牌阵",
+    "description": "占卜牌阵定义（单张/三张/凯尔特十字/自由）"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "spreadId": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "cardCount": {
+      "type": "integer",
+      "default": 0
+    },
+    "fixed": {
+      "type": "boolean",
+      "default": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "positions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tarot.spread-position"
+    },
+    "sort": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

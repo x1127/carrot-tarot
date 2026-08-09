@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_site_deck_sections",
+  "info": {
+    "displayName": "牌组页文案",
+    "icon": "grid",
+    "description": "牌组大全页的标题与筛选项文案"
+  },
+  "attributes": {
+    "title": { "type": "string" },
+    "subtitle": { "type": "string" },
+    "filterAll": { "type": "string" },
+    "filterMajor": { "type": "string" },
+    "filterWands": { "type": "string" },
+    "filterCups": { "type": "string" },
+    "filterSwords": { "type": "string" },
+    "filterPentacles": { "type": "string" },
+    "emptyText": { "type": "string" },
+    "uprightLabel": { "type": "string" },
+    "reversedLabel": { "type": "string" },
+    "uprightMeaningLabel": { "type": "string" },
+    "reversedMeaningLabel": { "type": "string" },
+    "arcanaMajor": { "type": "string" },
+    "arcanaMinor": { "type": "string" }
+  }
+}

@@ -1,0 +1,3560 @@
+{
+  "cards": [
+    {
+      "cardId": "major-00",
+      "name": "愚者",
+      "englishName": "The Fool",
+      "arcana": "major",
+      "suit": null,
+      "number": 0,
+      "element": "air",
+      "keywordsUpright": [
+        {
+          "word": "开始"
+        },
+        {
+          "word": "自由"
+        },
+        {
+          "word": "冒险"
+        },
+        {
+          "word": "纯真"
+        },
+        {
+          "word": "本能"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "鲁莽"
+        },
+        {
+          "word": "冒险"
+        },
+        {
+          "word": "迷茫"
+        },
+        {
+          "word": "天真"
+        }
+      ],
+      "meaningUpright": "象征新的旅程与无限可能。怀着赤子之心踏入未知，相信直觉，拥抱自由与冒险。这是踏上新征程的勇气时刻。",
+      "meaningReversed": "提示鲁莽与缺乏规划。盲目冲动可能带来风险，需要在行动前冷静思考，避免因天真而陷入困境。",
+      "sort": 0
+    },
+    {
+      "cardId": "major-01",
+      "name": "魔术师",
+      "englishName": "The Magician",
+      "arcana": "major",
+      "suit": null,
+      "number": 1,
+      "element": "air",
+      "keywordsUpright": [
+        {
+          "word": "创造力"
+        },
+        {
+          "word": "意志"
+        },
+        {
+          "word": "行动"
+        },
+        {
+          "word": "显化"
+        },
+        {
+          "word": "技艺"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "操纵"
+        },
+        {
+          "word": "未发挥"
+        },
+        {
+          "word": "欺骗"
+        },
+        {
+          "word": "缺乏专注"
+        }
+      ],
+      "meaningUpright": "你拥有实现目标所需的一切工具与才能。意志与行动力将想法化为现实，是显化与创造的绝佳时机。",
+      "meaningReversed": "才华未被善用，或存在操纵欺骗。警惕华而不实，需要真诚面对自己的能力与意图。",
+      "sort": 1
+    },
+    {
+      "cardId": "major-02",
+      "name": "女祭司",
+      "englishName": "The High Priestess",
+      "arcana": "major",
+      "suit": null,
+      "number": 2,
+      "element": "water",
+      "keywordsUpright": [
+        {
+          "word": "直觉"
+        },
+        {
+          "word": "神秘"
+        },
+        {
+          "word": "潜意识"
+        },
+        {
+          "word": "静观"
+        },
+        {
+          "word": "智慧"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "秘密"
+        },
+        {
+          "word": "压抑直觉"
+        },
+        {
+          "word": "失衡"
+        },
+        {
+          "word": "浮躁"
+        }
+      ],
+      "meaningUpright": "倾听内在的声音与直觉。答案藏于潜意识与静默之中，此刻宜静观、内省，而非急于行动。",
+      "meaningReversed": "直觉被忽视或情绪失衡。过度依赖外在信息，需重新连接内在智慧。",
+      "sort": 2
+    },
+    {
+      "cardId": "major-03",
+      "name": "皇后",
+      "englishName": "The Empress",
+      "arcana": "major",
+      "suit": null,
+      "number": 3,
+      "element": "earth",
+      "keywordsUpright": [
+        {
+          "word": "丰盛"
+        },
+        {
+          "word": "滋养"
+        },
+        {
+          "word": "母性"
+        },
+        {
+          "word": "创造"
+        },
+        {
+          "word": "自然"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "依赖"
+        },
+        {
+          "word": "过度保护"
+        },
+        {
+          "word": "匮乏"
+        },
+        {
+          "word": "停滞"
+        }
+      ],
+      "meaningUpright": "丰盛、创造力与生命力的绽放。享受感官与自然之美，以温柔滋养他人与自我，是孕育与成长的时期。",
+      "meaningReversed": "过度依赖或控制，或感到匮乏停滞。需要在给予与自我关怀间找回平衡。",
+      "sort": 3
+    },
+    {
+      "cardId": "major-04",
+      "name": "皇帝",
+      "englishName": "The Emperor",
+      "arcana": "major",
+      "suit": null,
+      "number": 4,
+      "element": "fire",
+      "keywordsUpright": [
+        {
+          "word": "权威"
+        },
+        {
+          "word": "结构"
+        },
+        {
+          "word": "稳定"
+        },
+        {
+          "word": "领导"
+        },
+        {
+          "word": "父性"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "专制"
+        },
+        {
+          "word": "僵化"
+        },
+        {
+          "word": "滥用权力"
+        },
+        {
+          "word": "失控"
+        }
+      ],
+      "meaningUpright": "建立秩序与结构，以理性与权威掌控局面。坚持原则、承担责任，是稳固根基与领导的时刻。",
+      "meaningReversed": "过度专制或规则僵化，亦或权威失控。需要在掌控与灵活之间调整。",
+      "sort": 4
+    },
+    {
+      "cardId": "major-05",
+      "name": "教皇",
+      "englishName": "The Hierophant",
+      "arcana": "major",
+      "suit": null,
+      "number": 5,
+      "element": "earth",
+      "keywordsUpright": [
+        {
+          "word": "传统"
+        },
+        {
+          "word": "信仰"
+        },
+        {
+          "word": "指引"
+        },
+        {
+          "word": "归属"
+        },
+        {
+          "word": "教育"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "反叛"
+        },
+        {
+          "word": "非传统"
+        },
+        {
+          "word": "自由思想"
+        },
+        {
+          "word": "束缚"
+        }
+      ],
+      "meaningUpright": "遵循传统与精神指引，寻求导师或团体的智慧。在既有体系中学习与成长，获得归属感。",
+      "meaningReversed": "突破常规、挑战传统，或感到教条的束缚。需要按自己的信念前行。",
+      "sort": 5
+    },
+    {
+      "cardId": "major-06",
+      "name": "恋人",
+      "englishName": "The Lovers",
+      "arcana": "major",
+      "suit": null,
+      "number": 6,
+      "element": "air",
+      "keywordsUpright": [
+        {
+          "word": "爱"
+        },
+        {
+          "word": "选择"
+        },
+        {
+          "word": "和谐"
+        },
+        {
+          "word": "结合"
+        },
+        {
+          "word": "价值观"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "失衡"
+        },
+        {
+          "word": "冲突"
+        },
+        {
+          "word": "错误选择"
+        },
+        {
+          "word": "分离"
+        }
+      ],
+      "meaningUpright": "关于爱与价值观的重要选择。在关系与结合中寻找和谐，需以真诚的心做出忠于自我的决定。",
+      "meaningReversed": "关系失衡或价值观冲突，可能面临错误选择。需要重新审视内心的真实需求。",
+      "sort": 6
+    },
+    {
+      "cardId": "major-07",
+      "name": "战车",
+      "englishName": "The Chariot",
+      "arcana": "major",
+      "suit": null,
+      "number": 7,
+      "element": "water",
+      "keywordsUpright": [
+        {
+          "word": "意志"
+        },
+        {
+          "word": "胜利"
+        },
+        {
+          "word": "控制"
+        },
+        {
+          "word": "前进"
+        },
+        {
+          "word": "决心"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "失控"
+        },
+        {
+          "word": "方向不明"
+        },
+        {
+          "word": "冲动"
+        },
+        {
+          "word": "挫折"
+        }
+      ],
+      "meaningUpright": "凭借坚定意志与自律驾驭对立的力量，取得胜利。专注目标、掌控方向，奋勇前行。",
+      "meaningReversed": "失去控制或方向混乱，冲动行事导致挫折。需要重新聚焦与调整节奏。",
+      "sort": 7
+    },
+    {
+      "cardId": "major-08",
+      "name": "力量",
+      "englishName": "Strength",
+      "arcana": "major",
+      "suit": null,
+      "number": 8,
+      "element": "fire",
+      "keywordsUpright": [
+        {
+          "word": "勇气"
+        },
+        {
+          "word": "柔韧"
+        },
+        {
+          "word": "耐心"
+        },
+        {
+          "word": "内在力量"
+        },
+        {
+          "word": "驯服"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "自我怀疑"
+        },
+        {
+          "word": "脆弱"
+        },
+        {
+          "word": "失控"
+        },
+        {
+          "word": "压抑"
+        }
+      ],
+      "meaningUpright": "以温柔与耐心驯服内心的野兽。真正的力量源于柔韧与勇气，而非蛮力。相信自己的内在韧性。",
+      "meaningReversed": "自我怀疑或情绪失控，感到脆弱。需要重建自信，温和地面对恐惧。",
+      "sort": 8
+    },
+    {
+      "cardId": "major-09",
+      "name": "隐士",
+      "englishName": "The Hermit",
+      "arcana": "major",
+      "suit": null,
+      "number": 9,
+      "element": "earth",
+      "keywordsUpright": [
+        {
+          "word": "内省"
+        },
+        {
+          "word": "孤独"
+        },
+        {
+          "word": "指引"
+        },
+        {
+          "word": "智慧"
+        },
+        {
+          "word": "寻觅"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "孤立"
+        },
+        {
+          "word": "退缩"
+        },
+        {
+          "word": "迷失"
+        },
+        {
+          "word": "拒绝指引"
+        }
+      ],
+      "meaningUpright": "退入内在的宁静，独自寻觅真理。这是内省与自我探索的时刻，智慧在独处中浮现。",
+      "meaningReversed": "过度孤立或拒绝外界帮助，感到迷失。需要适度打开心扉，接受指引。",
+      "sort": 9
+    },
+    {
+      "cardId": "major-10",
+      "name": "命运之轮",
+      "englishName": "Wheel of Fortune",
+      "arcana": "major",
+      "suit": null,
+      "number": 10,
+      "element": "fire",
+      "keywordsUpright": [
+        {
+          "word": "转折"
+        },
+        {
+          "word": "命运"
+        },
+        {
+          "word": "机遇"
+        },
+        {
+          "word": "循环"
+        },
+        {
+          "word": "变化"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "逆流"
+        },
+        {
+          "word": "厄运"
+        },
+        {
+          "word": "抗拒变化"
+        },
+        {
+          "word": "失控"
+        }
+      ],
+      "meaningUpright": "命运的转轮带来机遇与转折。顺势而为，把握变化的浪潮，新的循环正在开启。",
+      "meaningReversed": "运势逆转或抗拒变化，感到失控。需要接受无常，调整心态迎接转折。",
+      "sort": 10
+    },
+    {
+      "cardId": "major-11",
+      "name": "正义",
+      "englishName": "Justice",
+      "arcana": "major",
+      "suit": null,
+      "number": 11,
+      "element": "air",
+      "keywordsUpright": [
+        {
+          "word": "公正"
+        },
+        {
+          "word": "真相"
+        },
+        {
+          "word": "因果"
+        },
+        {
+          "word": "平衡"
+        },
+        {
+          "word": "责任"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "不公"
+        },
+        {
+          "word": "偏颇"
+        },
+        {
+          "word": "逃避责任"
+        },
+        {
+          "word": "失衡"
+        }
+      ],
+      "meaningUpright": "以公正与理性权衡真相。因果自有定数，承担应尽的责任，做出公平的判断与决定。",
+      "meaningReversed": "不公或偏颇，逃避责任导致失衡。需要正视真相，回归公正。",
+      "sort": 11
+    },
+    {
+      "cardId": "major-12",
+      "name": "倒吊人",
+      "englishName": "The Hanged Man",
+      "arcana": "major",
+      "suit": null,
+      "number": 12,
+      "element": "water",
+      "keywordsUpright": [
+        {
+          "word": "暂停"
+        },
+        {
+          "word": "视角"
+        },
+        {
+          "word": "放下"
+        },
+        {
+          "word": "牺牲"
+        },
+        {
+          "word": "顿悟"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "停滞"
+        },
+        {
+          "word": "抗拒"
+        },
+        {
+          "word": "无谓牺牲"
+        },
+        {
+          "word": "拖延"
+        }
+      ],
+      "meaningUpright": "主动暂停，换个角度看世界。在等待与放下中获得顿悟，暂时的牺牲将带来新的领悟。",
+      "meaningReversed": "停滞不前或无谓的拖延，抗拒改变。需要打破僵局，重新审视。",
+      "sort": 12
+    },
+    {
+      "cardId": "major-13",
+      "name": "死神",
+      "englishName": "Death",
+      "arcana": "major",
+      "suit": null,
+      "number": 13,
+      "element": "water",
+      "keywordsUpright": [
+        {
+          "word": "结束"
+        },
+        {
+          "word": "转变"
+        },
+        {
+          "word": "重生"
+        },
+        {
+          "word": "释放"
+        },
+        {
+          "word": "蜕变"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "抗拒结束"
+        },
+        {
+          "word": "停滞"
+        },
+        {
+          "word": "恐惧变化"
+        },
+        {
+          "word": "拖延"
+        }
+      ],
+      "meaningUpright": "一个阶段的自然终结，为新生腾出空间。释放不再服务于你的事物，拥抱深刻的蜕变与重生。",
+      "meaningReversed": "抗拒必要的结束， clinging 于旧事物。需要勇敢放手，迎接转变。",
+      "sort": 13
+    },
+    {
+      "cardId": "major-14",
+      "name": "节制",
+      "englishName": "Temperance",
+      "arcana": "major",
+      "suit": null,
+      "number": 14,
+      "element": "fire",
+      "keywordsUpright": [
+        {
+          "word": "平衡"
+        },
+        {
+          "word": "调和"
+        },
+        {
+          "word": "耐心"
+        },
+        {
+          "word": "中庸"
+        },
+        {
+          "word": "融合"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "失衡"
+        },
+        {
+          "word": "过度"
+        },
+        {
+          "word": "不和谐"
+        },
+        {
+          "word": "急躁"
+        }
+      ],
+      "meaningUpright": "在对立之间寻找平衡与调和。以耐心与中庸之道融合不同元素，达到内在的和谐。",
+      "meaningReversed": "失衡或走极端，缺乏协调。需要重新校准，回归适度。",
+      "sort": 14
+    },
+    {
+      "cardId": "major-15",
+      "name": "恶魔",
+      "englishName": "The Devil",
+      "arcana": "major",
+      "suit": null,
+      "number": 15,
+      "element": "earth",
+      "keywordsUpright": [
+        {
+          "word": "束缚"
+        },
+        {
+          "word": "欲望"
+        },
+        {
+          "word": "执着"
+        },
+        {
+          "word": "物欲"
+        },
+        {
+          "word": "成瘾"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "释放"
+        },
+        {
+          "word": "觉醒"
+        },
+        {
+          "word": "挣脱"
+        },
+        {
+          "word": " reclaim力量"
+        }
+      ],
+      "meaningUpright": "被欲望、执念或物质所束缚。看清束缚你的枷锁，它往往源自内心的恐惧与依附。",
+      "meaningReversed": "挣脱束缚，重获自由。觉醒于真正的力量，从成瘾与执着中解放。",
+      "sort": 15
+    },
+    {
+      "cardId": "major-16",
+      "name": "塔",
+      "englishName": "The Tower",
+      "arcana": "major",
+      "suit": null,
+      "number": 16,
+      "element": "fire",
+      "keywordsUpright": [
+        {
+          "word": "突变"
+        },
+        {
+          "word": "崩塌"
+        },
+        {
+          "word": "觉醒"
+        },
+        {
+          "word": "真相揭露"
+        },
+        {
+          "word": "颠覆"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "避免灾难"
+        },
+        {
+          "word": "抗拒变化"
+        },
+        {
+          "word": "延缓"
+        },
+        {
+          "word": "内在动荡"
+        }
+      ],
+      "meaningUpright": "突如其来的颠覆与崩塌，虚假的根基被动摇。虽然剧烈，却带来深刻的觉醒与重建契机。",
+      "meaningReversed": "灾难被延缓或内在抗拒变化。需要正视隐患，主动面对而非逃避。",
+      "sort": 16
+    },
+    {
+      "cardId": "major-17",
+      "name": "星星",
+      "englishName": "The Star",
+      "arcana": "major",
+      "suit": null,
+      "number": 17,
+      "element": "air",
+      "keywordsUpright": [
+        {
+          "word": "希望"
+        },
+        {
+          "word": "疗愈"
+        },
+        {
+          "word": "信念"
+        },
+        {
+          "word": "宁静"
+        },
+        {
+          "word": "灵感"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "绝望"
+        },
+        {
+          "word": "失去信心"
+        },
+        {
+          "word": "消极"
+        },
+        {
+          "word": "disconnect"
+        }
+      ],
+      "meaningUpright": "风暴过后的希望与疗愈之光。重燃信念与灵感，在宁静中恢复力量，未来可期。",
+      "meaningReversed": "失去希望或信心，感到消极。需要重新连接内在的星光与信念。",
+      "sort": 17
+    },
+    {
+      "cardId": "major-18",
+      "name": "月亮",
+      "englishName": "The Moon",
+      "arcana": "major",
+      "suit": null,
+      "number": 18,
+      "element": "water",
+      "keywordsUpright": [
+        {
+          "word": "幻象"
+        },
+        {
+          "word": "潜意识"
+        },
+        {
+          "word": "恐惧"
+        },
+        {
+          "word": "直觉"
+        },
+        {
+          "word": "迷雾"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "释放恐惧"
+        },
+        {
+          "word": "澄清"
+        },
+        {
+          "word": "真相显现"
+        },
+        {
+          "word": "走出迷雾"
+        }
+      ],
+      "meaningUpright": "迷雾笼罩，幻象与潜意识恐惧浮现。直觉在模糊中指引，需要勇敢面对未知的阴影。",
+      "meaningReversed": "迷雾散去，恐惧被释放，真相逐渐清晰。走出困惑，重见光明。",
+      "sort": 18
+    },
+    {
+      "cardId": "major-19",
+      "name": "太阳",
+      "englishName": "The Sun",
+      "arcana": "major",
+      "suit": null,
+      "number": 19,
+      "element": "fire",
+      "keywordsUpright": [
+        {
+          "word": "喜悦"
+        },
+        {
+          "word": "成功"
+        },
+        {
+          "word": "活力"
+        },
+        {
+          "word": " positivity"
+        },
+        {
+          "word": "明朗"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "暂时的阴霾"
+        },
+        {
+          "word": "过度乐观"
+        },
+        {
+          "word": " ego"
+        },
+        {
+          "word": "受阻"
+        }
+      ],
+      "meaningUpright": "充满喜悦、成功与生命力的时刻。阴霾散尽，阳光普照，是庆祝与绽放的吉祥之兆。",
+      "meaningReversed": "喜悦暂时受阻，或过度乐观。需要调整期待，让光芒重新照进。",
+      "sort": 19
+    },
+    {
+      "cardId": "major-20",
+      "name": "审判",
+      "englishName": "Judgement",
+      "arcana": "major",
+      "suit": null,
+      "number": 20,
+      "element": "fire",
+      "keywordsUpright": [
+        {
+          "word": "觉醒"
+        },
+        {
+          "word": "重生"
+        },
+        {
+          "word": "召唤"
+        },
+        {
+          "word": "反思"
+        },
+        {
+          "word": "救赎"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "自我怀疑"
+        },
+        {
+          "word": "回避召唤"
+        },
+        {
+          "word": " regret"
+        },
+        {
+          "word": "迟疑"
+        }
+      ],
+      "meaningUpright": "聆听内在的召唤，迎来觉醒与重生。反思过往，作出审判与抉择，迈向更高的存在。",
+      "meaningReversed": "回避召唤或自我怀疑，沉溺于 regret。需要勇敢回应内心的呼唤。",
+      "sort": 20
+    },
+    {
+      "cardId": "major-21",
+      "name": "世界",
+      "englishName": "The World",
+      "arcana": "major",
+      "suit": null,
+      "number": 21,
+      "element": "earth",
+      "keywordsUpright": [
+        {
+          "word": "完成"
+        },
+        {
+          "word": "圆满"
+        },
+        {
+          "word": "成就"
+        },
+        {
+          "word": "整合"
+        },
+        {
+          "word": "新循环"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "未完成"
+        },
+        {
+          "word": "延迟"
+        },
+        {
+          "word": "欠缺"
+        },
+        {
+          "word": "收尾"
+        }
+      ],
+      "meaningUpright": "一个周期的圆满完成与整合。收获成就，感到完整，同时在圆满中开启新的循环。",
+      "meaningReversed": "接近完成却仍有欠缺，或感到未竟。需要补全最后一步，方能圆满。",
+      "sort": 21
+    },
+    {
+      "cardId": "wands-01",
+      "name": "权杖一",
+      "englishName": "Wands 1",
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 1,
+      "element": "fire",
+      "keywordsUpright": [
+        {
+          "word": "灵感"
+        },
+        {
+          "word": "新机遇"
+        },
+        {
+          "word": "激情"
+        },
+        {
+          "word": "创造"
+        },
+        {
+          "word": "种子"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "延迟"
+        },
+        {
+          "word": "缺乏灵感"
+        },
+        {
+          "word": "错失时机"
+        },
+        {
+          "word": "冷漠"
+        }
+      ],
+      "meaningUpright": "新的灵感与机遇如火花迸发。充满激情与创造力的开端，把握这股能量开启新事业。",
+      "meaningReversed": "灵感受阻或时机延迟，激情冷却。需要重新点燃内在火焰，等待时机成熟。",
+      "sort": 22
+    },
+    {
+      "cardId": "wands-02",
+      "name": "权杖二",
+      "englishName": "Wands 2",
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 2,
+      "element": "fire",
+      "keywordsUpright": [
+        {
+          "word": "规划"
+        },
+        {
+          "word": "抉择"
+        },
+        {
+          "word": "远见"
+        },
+        {
+          "word": "掌控"
+        },
+        {
+          "word": "未来"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "犹豫"
+        },
+        {
+          "word": "畏惧未知"
+        },
+        {
+          "word": "计划落空"
+        },
+        {
+          "word": "短视"
+        }
+      ],
+      "meaningUpright": "站在十字路口展望未来。手握规划与远见，在已知与未知间做出抉择。",
+      "meaningReversed": "因畏惧未知而犹豫不前，或计划脱离实际。需要鼓起勇气迈出舒适圈。",
+      "sort": 23
+    },
+    {
+      "cardId": "wands-03",
+      "name": "权杖三",
+      "englishName": "Wands 3",
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 3,
+      "element": "fire",
+      "keywordsUpright": [
+        {
+          "word": "扩展"
+        },
+        {
+          "word": "前景"
+        },
+        {
+          "word": "远见"
+        },
+        {
+          "word": "进展"
+        },
+        {
+          "word": "视野"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "阻碍"
+        },
+        {
+          "word": "延迟"
+        },
+        {
+          "word": "短视"
+        },
+        {
+          "word": "错过机会"
+        }
+      ],
+      "meaningUpright": "远眺地平线，看到扩展的前景。计划开始显现成效，视野开阔，机遇在路上。",
+      "meaningReversed": "进展受阻或目光短浅，错过发展时机。需要调整视野与耐心等待。",
+      "sort": 24
+    },
+    {
+      "cardId": "wands-04",
+      "name": "权杖四",
+      "englishName": "Wands 4",
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 4,
+      "element": "fire",
+      "keywordsUpright": [
+        {
+          "word": "庆祝"
+        },
+        {
+          "word": "稳定"
+        },
+        {
+          "word": "归属"
+        },
+        {
+          "word": "和谐"
+        },
+        {
+          "word": "里程碑"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "不稳"
+        },
+        {
+          "word": "冲突"
+        },
+        {
+          "word": "无归属感"
+        },
+        {
+          "word": "过渡"
+        }
+      ],
+      "meaningUpright": "欢庆稳定的根基与团聚。达成里程碑，享受和谐与归属的喜悦时刻。",
+      "meaningReversed": "根基不稳或缺乏归属感，庆祝被冲突打断。需要重建稳定与和谐。",
+      "sort": 25
+    },
+    {
+      "cardId": "wands-05",
+      "name": "权杖五",
+      "englishName": "Wands 5",
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 5,
+      "element": "fire",
+      "keywordsUpright": [
+        {
+          "word": "竞争"
+        },
+        {
+          "word": "冲突"
+        },
+        {
+          "word": "磨砺"
+        },
+        {
+          "word": "多元"
+        },
+        {
+          "word": "内耗"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "化解"
+        },
+        {
+          "word": "内耗"
+        },
+        {
+          "word": "逃避"
+        },
+        {
+          "word": "僵持"
+        }
+      ],
+      "meaningUpright": "多元观点碰撞带来的竞争与冲突。虽混乱却能磨砺出最佳方案，良性竞争激发成长。",
+      "meaningReversed": "冲突被化解或反而陷入无谓内耗。需要正视分歧，寻找共识。",
+      "sort": 26
+    },
+    {
+      "cardId": "wands-06",
+      "name": "权杖六",
+      "englishName": "Wands 6",
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 6,
+      "element": "fire",
+      "keywordsUpright": [
+        {
+          "word": "胜利"
+        },
+        {
+          "word": "认可"
+        },
+        {
+          "word": "荣誉"
+        },
+        {
+          "word": "信心"
+        },
+        {
+          "word": "成功"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "失落"
+        },
+        {
+          "word": "未获认可"
+        },
+        {
+          "word": "自负"
+        },
+        {
+          "word": "失败"
+        }
+      ],
+      "meaningUpright": "凯旋归来，获得众人的认可与喝彩。胜利与荣誉加身，信心满满。",
+      "meaningReversed": "胜利落空或未获认可，自负招致反感。需要谦逊面对得失。",
+      "sort": 27
+    },
+    {
+      "cardId": "wands-07",
+      "name": "权杖七",
+      "englishName": "Wands 7",
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 7,
+      "element": "fire",
+      "keywordsUpright": [
+        {
+          "word": "捍卫"
+        },
+        {
+          "word": "坚守"
+        },
+        {
+          "word": "挑战"
+        },
+        {
+          "word": "立场"
+        },
+        {
+          "word": "防御"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": " overwhelmed"
+        },
+        {
+          "word": "妥协"
+        },
+        {
+          "word": "放弃"
+        },
+        {
+          "word": "压力"
+        }
+      ],
+      "meaningUpright": "坚定捍卫自己的立场与成就。面对挑战与压力，坚守阵地不退让。",
+      "meaningReversed": "感到 overwhelmed 或被迫妥协放弃立场。需要重整旗鼓或灵活应对。",
+      "sort": 28
+    },
+    {
+      "cardId": "wands-08",
+      "name": "权杖八",
+      "englishName": "Wands 8",
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 8,
+      "element": "fire",
+      "keywordsUpright": [
+        {
+          "word": "速度"
+        },
+        {
+          "word": "行动"
+        },
+        {
+          "word": "进展"
+        },
+        {
+          "word": "讯息"
+        },
+        {
+          "word": "动能"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "延迟"
+        },
+        {
+          "word": "混乱"
+        },
+        {
+          "word": "受阻"
+        },
+        {
+          "word": "急躁"
+        }
+      ],
+      "meaningUpright": "事情快速推进，消息与行动如箭般飞驰。抓住动能，顺势加速前行。",
+      "meaningReversed": "进展延迟或信息混乱，动能受阻。需要耐心理清头绪，避免急躁。",
+      "sort": 29
+    },
+    {
+      "cardId": "wands-09",
+      "name": "权杖九",
+      "englishName": "Wands 9",
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 9,
+      "element": "fire",
+      "keywordsUpright": [
+        {
+          "word": "坚韧"
+        },
+        {
+          "word": "警觉"
+        },
+        {
+          "word": "防御"
+        },
+        {
+          "word": "疲惫"
+        },
+        {
+          "word": "坚持"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "疲惫"
+        },
+        {
+          "word": "偏执"
+        },
+        {
+          "word": "放下防备"
+        },
+        {
+          "word": "力竭"
+        }
+      ],
+      "meaningUpright": "历经战斗后的坚韧与警觉。虽疲惫仍坚守最后防线，胜利在望不可松懈。",
+      "meaningReversed": "过度疲惫或偏执防备，力竭难支。需要适度放下防御，休养生息。",
+      "sort": 30
+    },
+    {
+      "cardId": "wands-10",
+      "name": "权杖十",
+      "englishName": "Wands 10",
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 10,
+      "element": "fire",
+      "keywordsUpright": [
+        {
+          "word": "重担"
+        },
+        {
+          "word": "责任"
+        },
+        {
+          "word": "压力"
+        },
+        {
+          "word": "完成"
+        },
+        {
+          "word": "负荷"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "放下"
+        },
+        {
+          "word": "释放"
+        },
+        {
+          "word": " delegating"
+        },
+        {
+          "word": "逃避"
+        }
+      ],
+      "meaningUpright": "肩负沉重责任与压力。虽负担过重，但坚持下来便能完成目标，需学会分摊。",
+      "meaningReversed": "学会放下重担或 delegating 责任。释放过载，重新获得自由。",
+      "sort": 31
+    },
+    {
+      "cardId": "wands-11",
+      "name": "权杖侍从",
+      "englishName": "Wands 11",
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 11,
+      "element": "fire",
+      "keywordsUpright": [
+        {
+          "word": "探索"
+        },
+        {
+          "word": "热情"
+        },
+        {
+          "word": "新创意"
+        },
+        {
+          "word": "学习"
+        },
+        {
+          "word": "冒险精神"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "缺乏方向"
+        },
+        {
+          "word": "半途而废"
+        },
+        {
+          "word": "浮躁"
+        },
+        {
+          "word": "拖延"
+        }
+      ],
+      "meaningUpright": "充满热情的探索者。带着好奇心与冒险精神学习新事物，创意的火苗初现。",
+      "meaningReversed": "热情缺乏方向或半途而废，浮躁拖延。需要聚焦目标，坚持到底。",
+      "sort": 32
+    },
+    {
+      "cardId": "wands-12",
+      "name": "权杖骑士",
+      "englishName": "Wands 12",
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 12,
+      "element": "fire",
+      "keywordsUpright": [
+        {
+          "word": "冒险"
+        },
+        {
+          "word": "行动"
+        },
+        {
+          "word": "热情"
+        },
+        {
+          "word": "冲劲"
+        },
+        {
+          "word": "远征"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "鲁莽"
+        },
+        {
+          "word": "急躁"
+        },
+        {
+          "word": "三分钟热度"
+        },
+        {
+          "word": "冒进"
+        }
+      ],
+      "meaningUpright": "勇往直前的冒险者。以热情与行动力追逐目标，充满冲劲与冒险精神。",
+      "meaningReversed": "鲁莽冒进或三分钟热度，急躁误事。需要冷静规划，持续行动。",
+      "sort": 33
+    },
+    {
+      "cardId": "wands-13",
+      "name": "权杖王后",
+      "englishName": "Wands 13",
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 13,
+      "element": "fire",
+      "keywordsUpright": [
+        {
+          "word": "自信"
+        },
+        {
+          "word": "魅力"
+        },
+        {
+          "word": "热情"
+        },
+        {
+          "word": "独立"
+        },
+        {
+          "word": "温暖"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "嫉妒"
+        },
+        {
+          "word": "insecurity"
+        },
+        {
+          "word": "专横"
+        },
+        {
+          "word": "冷漠"
+        }
+      ],
+      "meaningUpright": "充满自信与魅力的领导者。以热情与温暖引领他人，独立而富有创造力。",
+      "meaningReversed": "嫉妒或 insecurity 作祟，专横冷漠。需要重拾自信，以真诚温暖待人。",
+      "sort": 34
+    },
+    {
+      "cardId": "wands-14",
+      "name": "权杖国王",
+      "englishName": "Wands 14",
+      "arcana": "minor",
+      "suit": "wands",
+      "number": 14,
+      "element": "fire",
+      "keywordsUpright": [
+        {
+          "word": "领导"
+        },
+        {
+          "word": "远见"
+        },
+        {
+          "word": "权威"
+        },
+        {
+          "word": "魄力"
+        },
+        {
+          "word": "开拓"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "专制"
+        },
+        {
+          "word": "冲动"
+        },
+        {
+          "word": "暴君"
+        },
+        {
+          "word": "rigid"
+        }
+      ],
+      "meaningUpright": "富有远见与魄力的领袖。以权威与开创精神引领方向，自信果断。",
+      "meaningReversed": "专断冲动或成为暴君，rigid 不通融。需要倾听他人，适度放权。",
+      "sort": 35
+    },
+    {
+      "cardId": "cups-01",
+      "name": "圣杯一",
+      "englishName": "Cups 1",
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 1,
+      "element": "water",
+      "keywordsUpright": [
+        {
+          "word": "爱"
+        },
+        {
+          "word": "情感"
+        },
+        {
+          "word": "喜悦"
+        },
+        {
+          "word": "新关系"
+        },
+        {
+          "word": "灵感"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "情感阻塞"
+        },
+        {
+          "word": "失去"
+        },
+        {
+          "word": "空虚"
+        },
+        {
+          "word": "冷漠"
+        }
+      ],
+      "meaningUpright": "情感与爱的满溢如圣杯涌出。新关系或情感体验开启，心灵充盈喜悦与灵感。",
+      "meaningReversed": "情感阻塞或失去连接，内心空虚冷漠。需要重新打开心扉，滋养情感。",
+      "sort": 36
+    },
+    {
+      "cardId": "cups-02",
+      "name": "圣杯二",
+      "englishName": "Cups 2",
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 2,
+      "element": "water",
+      "keywordsUpright": [
+        {
+          "word": "连接"
+        },
+        {
+          "word": "和谐"
+        },
+        {
+          "word": " partnership"
+        },
+        {
+          "word": "吸引"
+        },
+        {
+          "word": "共鸣"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "分离"
+        },
+        {
+          "word": "误解"
+        },
+        {
+          "word": "失衡"
+        },
+        {
+          "word": "决裂"
+        }
+      ],
+      "meaningUpright": "两人心灵的深刻连接与共鸣。和谐的关系与 partnership，相互吸引理解。",
+      "meaningReversed": "关系破裂或产生误解，连接失衡。需要修复沟通，重建信任。",
+      "sort": 37
+    },
+    {
+      "cardId": "cups-03",
+      "name": "圣杯三",
+      "englishName": "Cups 3",
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 3,
+      "element": "water",
+      "keywordsUpright": [
+        {
+          "word": "欢聚"
+        },
+        {
+          "word": "友谊"
+        },
+        {
+          "word": "庆祝"
+        },
+        {
+          "word": "社交"
+        },
+        {
+          "word": "分享"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "过度放纵"
+        },
+        {
+          "word": "社交疲劳"
+        },
+        {
+          "word": "八卦"
+        },
+        {
+          "word": "孤立"
+        }
+      ],
+      "meaningUpright": "朋友欢聚庆祝的喜悦时刻。友谊与社交的丰盛，分享快乐与情谊。",
+      "meaningReversed": "过度放纵或社交疲劳，流于八卦或被孤立。需要平衡社交与独处。",
+      "sort": 38
+    },
+    {
+      "cardId": "cups-04",
+      "name": "圣杯四",
+      "englishName": "Cups 4",
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 4,
+      "element": "water",
+      "keywordsUpright": [
+        {
+          "word": "冷漠"
+        },
+        {
+          "word": "倦怠"
+        },
+        {
+          "word": "忽视"
+        },
+        {
+          "word": "内省"
+        },
+        {
+          "word": " apathy"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "警觉"
+        },
+        {
+          "word": "新机会"
+        },
+        {
+          "word": "觉醒"
+        },
+        {
+          "word": "重燃兴趣"
+        }
+      ],
+      "meaningUpright": "对眼前的机遇感到冷漠倦怠。沉浸于内省却忽视身边的可能性。",
+      "meaningReversed": "从倦怠中觉醒，重新发现身边的机会。重燃对生活的兴趣。",
+      "sort": 39
+    },
+    {
+      "cardId": "cups-05",
+      "name": "圣杯五",
+      "englishName": "Cups 5",
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 5,
+      "element": "water",
+      "keywordsUpright": [
+        {
+          "word": "失落"
+        },
+        {
+          "word": "悲伤"
+        },
+        {
+          "word": "遗憾"
+        },
+        {
+          "word": "聚焦失去"
+        },
+        {
+          "word": "哀悼"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "接受"
+        },
+        {
+          "word": "放下"
+        },
+        {
+          "word": "前行"
+        },
+        {
+          "word": "重整"
+        }
+      ],
+      "meaningUpright": "为失去而悲伤，聚焦于打翻的圣杯。哀悼过往的遗憾，却忽视仍拥有的。",
+      "meaningReversed": "从悲伤中接受与放下，转向仍拥有的，重新前行。",
+      "sort": 40
+    },
+    {
+      "cardId": "cups-06",
+      "name": "圣杯六",
+      "englishName": "Cups 6",
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 6,
+      "element": "water",
+      "keywordsUpright": [
+        {
+          "word": "怀旧"
+        },
+        {
+          "word": "童真"
+        },
+        {
+          "word": "回忆"
+        },
+        {
+          "word": "善意"
+        },
+        {
+          "word": "馈赠"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "固守过去"
+        },
+        {
+          "word": "停滞"
+        },
+        {
+          "word": "无法放下"
+        },
+        {
+          "word": "naive"
+        }
+      ],
+      "meaningUpright": "沉浸在童年的回忆与怀旧之中。纯真的善意与馈赠，温暖而感伤。",
+      "meaningReversed": "过度固守过去而停滞，无法放下。需要面向当下与未来。",
+      "sort": 41
+    },
+    {
+      "cardId": "cups-07",
+      "name": "圣杯七",
+      "englishName": "Cups 7",
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 7,
+      "element": "water",
+      "keywordsUpright": [
+        {
+          "word": "幻想"
+        },
+        {
+          "word": "诱惑"
+        },
+        {
+          "word": "迷茫"
+        },
+        {
+          "word": "选择"
+        },
+        {
+          "word": "illusion"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "清明"
+        },
+        {
+          "word": "抉择"
+        },
+        {
+          "word": "看清"
+        },
+        {
+          "word": "务实"
+        }
+      ],
+      "meaningUpright": "被众多幻想与诱惑迷惑而迷茫。看清虚幻与现实的差距，避免迷失。",
+      "meaningReversed": "从幻想中清醒，做出清晰务实的抉择。拨开迷雾见真章。",
+      "sort": 42
+    },
+    {
+      "cardId": "cups-08",
+      "name": "圣杯八",
+      "englishName": "Cups 8",
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 8,
+      "element": "water",
+      "keywordsUpright": [
+        {
+          "word": "离开"
+        },
+        {
+          "word": "寻觅"
+        },
+        {
+          "word": "放下"
+        },
+        {
+          "word": "内在追求"
+        },
+        {
+          "word": "舍弃"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "恐惧离开"
+        },
+        {
+          "word": "停滞"
+        },
+        {
+          "word": "回避"
+        },
+        {
+          "word": "反复"
+        }
+      ],
+      "meaningUpright": "舍弃已不满的现状，踏上更深层的内在寻觅。勇敢放下，追寻心灵真意。",
+      "meaningReversed": "畏惧改变而停滞，或回避式地反复。需要鼓起勇气面对真实需求。",
+      "sort": 43
+    },
+    {
+      "cardId": "cups-09",
+      "name": "圣杯九",
+      "englishName": "Cups 9",
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 9,
+      "element": "water",
+      "keywordsUpright": [
+        {
+          "word": "满足"
+        },
+        {
+          "word": "愿望成真"
+        },
+        {
+          "word": "享乐"
+        },
+        {
+          "word": "自信"
+        },
+        {
+          "word": "丰盛"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "自满"
+        },
+        {
+          "word": "贪婪"
+        },
+        {
+          "word": "表面满足"
+        },
+        {
+          "word": "空虚"
+        }
+      ],
+      "meaningUpright": "心愿达成，身心满足的喜悦。享受丰盛与享乐，自信而惬意。",
+      "meaningReversed": "自满贪婪或仅止于表面满足，内在空虚。需要追求更深层的充实。",
+      "sort": 44
+    },
+    {
+      "cardId": "cups-10",
+      "name": "圣杯十",
+      "englishName": "Cups 10",
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 10,
+      "element": "water",
+      "keywordsUpright": [
+        {
+          "word": "家庭"
+        },
+        {
+          "word": "和谐"
+        },
+        {
+          "word": "幸福"
+        },
+        {
+          "word": "圆满"
+        },
+        {
+          "word": "归属"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "家庭冲突"
+        },
+        {
+          "word": "失和"
+        },
+        {
+          "word": "不圆满"
+        },
+        {
+          "word": "疏离"
+        }
+      ],
+      "meaningUpright": "家庭与情感的圆满幸福。和谐共处，心之所归，长久幸福的图景。",
+      "meaningReversed": "家庭失和或情感疏离，圆满受阻。需要修复关系，重建和谐。",
+      "sort": 45
+    },
+    {
+      "cardId": "cups-11",
+      "name": "圣杯侍从",
+      "englishName": "Cups 11",
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 11,
+      "element": "water",
+      "keywordsUpright": [
+        {
+          "word": "直觉"
+        },
+        {
+          "word": "浪漫"
+        },
+        {
+          "word": "敏感"
+        },
+        {
+          "word": "新情感"
+        },
+        {
+          "word": "梦境"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "情绪化"
+        },
+        {
+          "word": "不成熟"
+        },
+        {
+          "word": "逃避"
+        },
+        {
+          "word": "敏感过度"
+        }
+      ],
+      "meaningUpright": "敏感浪漫的情感学徒。以直觉与好奇探索情感世界，新感受萌芽。",
+      "meaningReversed": "情绪化或不成熟，敏感过度而逃避。需要学习稳定地表达情感。",
+      "sort": 46
+    },
+    {
+      "cardId": "cups-12",
+      "name": "圣杯骑士",
+      "englishName": "Cups 12",
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 12,
+      "element": "water",
+      "keywordsUpright": [
+        {
+          "word": "浪漫"
+        },
+        {
+          "word": "理想主义"
+        },
+        {
+          "word": "追求"
+        },
+        {
+          "word": "魅力"
+        },
+        {
+          "word": "dreamer"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "不切实际"
+        },
+        {
+          "word": " moodiness"
+        },
+        {
+          "word": "虚幻"
+        },
+        {
+          "word": " temperamental"
+        }
+      ],
+      "meaningUpright": "浪漫的理想主义追梦者。以温柔魅力追求心中所爱，富有想象力。",
+      "meaningReversed": "不切实际或 moodiness，沉溺虚幻。需要脚踏实地兑现承诺。",
+      "sort": 47
+    },
+    {
+      "cardId": "cups-13",
+      "name": "圣杯王后",
+      "englishName": "Cups 13",
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 13,
+      "element": "water",
+      "keywordsUpright": [
+        {
+          "word": "compassion"
+        },
+        {
+          "word": "直觉"
+        },
+        {
+          "word": "温柔"
+        },
+        {
+          "word": "情感智慧"
+        },
+        {
+          "word": "包容"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "情绪依赖"
+        },
+        {
+          "word": "martyr"
+        },
+        {
+          "word": "insecurity"
+        },
+        {
+          "word": "overly sensitive"
+        }
+      ],
+      "meaningUpright": "温柔慈悲的情感守护者。以直觉与包容滋养他人，情感智慧丰沛。",
+      "meaningReversed": "情绪依赖或 martyr 情结，过度敏感。需要建立健康的情感边界。",
+      "sort": 48
+    },
+    {
+      "cardId": "cups-14",
+      "name": "圣杯国王",
+      "englishName": "Cups 14",
+      "arcana": "minor",
+      "suit": "cups",
+      "number": 14,
+      "element": "water",
+      "keywordsUpright": [
+        {
+          "word": "情感平衡"
+        },
+        {
+          "word": "智慧"
+        },
+        {
+          "word": "calm"
+        },
+        {
+          "word": "counsel"
+        },
+        {
+          "word": "掌控情绪"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "压抑情绪"
+        },
+        {
+          "word": "cold"
+        },
+        {
+          "word": "manipulative"
+        },
+        {
+          "word": "情绪失控"
+        }
+      ],
+      "meaningUpright": "情感成熟而平衡的智者。以冷静智慧掌控情绪，给予 counsel 与安抚。",
+      "meaningReversed": "压抑情绪或显得 cold，亦或 manipulative。需要真诚表达与平衡情感。",
+      "sort": 49
+    },
+    {
+      "cardId": "swords-01",
+      "name": "宝剑一",
+      "englishName": "Swords 1",
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 1,
+      "element": "air",
+      "keywordsUpright": [
+        {
+          "word": "清晰"
+        },
+        {
+          "word": "突破"
+        },
+        {
+          "word": "真相"
+        },
+        {
+          "word": " intellect"
+        },
+        {
+          "word": "决断"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "混乱"
+        },
+        {
+          "word": "错误判断"
+        },
+        {
+          "word": " communication受阻"
+        },
+        {
+          "word": " clouded"
+        }
+      ],
+      "meaningUpright": "思维如利剑般清晰，突破迷雾见真相。理性决断与心智突破的时刻。",
+      "meaningReversed": "思维混乱或判断失误，沟通受阻。需要厘清思绪，避免冲动决策。",
+      "sort": 50
+    },
+    {
+      "cardId": "swords-02",
+      "name": "宝剑二",
+      "englishName": "Swords 2",
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 2,
+      "element": "air",
+      "keywordsUpright": [
+        {
+          "word": "僵局"
+        },
+        {
+          "word": "抉择"
+        },
+        {
+          "word": "逃避"
+        },
+        {
+          "word": "平衡"
+        },
+        {
+          "word": "盲点"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "决定"
+        },
+        {
+          "word": "看清"
+        },
+        {
+          "word": "打破僵局"
+        },
+        {
+          "word": "info"
+        }
+      ],
+      "meaningUpright": "陷入两难僵局，蒙眼回避抉择。维持表面平衡却逃避真实问题。",
+      "meaningReversed": "打破僵局做出决定，信息浮现让真相清晰。卸下眼罩直面选择。",
+      "sort": 51
+    },
+    {
+      "cardId": "swords-03",
+      "name": "宝剑三",
+      "englishName": "Swords 3",
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 3,
+      "element": "air",
+      "keywordsUpright": [
+        {
+          "word": "心碎"
+        },
+        {
+          "word": "悲伤"
+        },
+        {
+          "word": "痛苦"
+        },
+        {
+          "word": " release"
+        },
+        {
+          "word": "失望"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "恢复"
+        },
+        {
+          "word": "原谅"
+        },
+        {
+          "word": "走出伤痛"
+        },
+        {
+          "word": "释怀"
+        }
+      ],
+      "meaningUpright": "心碎与悲伤刺痛心头。面对情感的痛苦，在 release 中走向疗愈。",
+      "meaningReversed": "从伤痛中恢复，原谅与释怀带来疗愈。伤痛渐退，重见希望。",
+      "sort": 52
+    },
+    {
+      "cardId": "swords-04",
+      "name": "宝剑四",
+      "englishName": "Swords 4",
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 4,
+      "element": "air",
+      "keywordsUpright": [
+        {
+          "word": "休息"
+        },
+        {
+          "word": "休养"
+        },
+        {
+          "word": "contemplation"
+        },
+        {
+          "word": "暂停"
+        },
+        {
+          "word": "恢复"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": " restlessness"
+        },
+        {
+          "word": "burnout"
+        },
+        {
+          "word": "急于求成"
+        },
+        {
+          "word": "失眠"
+        }
+      ],
+      "meaningUpright": "需要休息与休养。暂停纷扰，静心 contemplation 以恢复精力。",
+      "meaningReversed": "无法安息或 burnout，急于求成。需要真正停下来恢复。",
+      "sort": 53
+    },
+    {
+      "cardId": "swords-05",
+      "name": "宝剑五",
+      "englishName": "Swords 5",
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 5,
+      "element": "air",
+      "keywordsUpright": [
+        {
+          "word": "冲突"
+        },
+        {
+          "word": "损失"
+        },
+        {
+          "word": " hollow胜利"
+        },
+        {
+          "word": "背叛"
+        },
+        {
+          "word": "争执"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "和解"
+        },
+        {
+          "word": "释怀"
+        },
+        {
+          "word": "放下争斗"
+        },
+        {
+          "word": "反思"
+        }
+      ],
+      "meaningUpright": "冲突后的空虚与损失。即便胜利也可能是 hollow 的，警惕争斗的代价。",
+      "meaningReversed": "从冲突中反思与和解，放下争斗。释怀前行，寻找真正价值。",
+      "sort": 54
+    },
+    {
+      "cardId": "swords-06",
+      "name": "宝剑六",
+      "englishName": "Swords 6",
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 6,
+      "element": "air",
+      "keywordsUpright": [
+        {
+          "word": "过渡"
+        },
+        {
+          "word": "前行"
+        },
+        {
+          "word": " healing"
+        },
+        {
+          "word": "远离"
+        },
+        {
+          "word": "平稳"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": " stalled"
+        },
+        {
+          "word": "抗拒前行"
+        },
+        {
+          "word": " baggage"
+        },
+        {
+          "word": "回流"
+        }
+      ],
+      "meaningUpright": "渡过难关走向平静的过渡。带着 healing 缓慢前行，远离风暴。",
+      "meaningReversed": "过渡 stalled 或抗拒前行，旧 baggage 未了。需要放下过去继续旅程。",
+      "sort": 55
+    },
+    {
+      "cardId": "swords-07",
+      "name": "宝剑七",
+      "englishName": "Swords 7",
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 7,
+      "element": "air",
+      "keywordsUpright": [
+        {
+          "word": "策略"
+        },
+        {
+          "word": " deception"
+        },
+        {
+          "word": "回避"
+        },
+        {
+          "word": " cunning"
+        },
+        {
+          "word": "偷偷摸摸"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "坦白"
+        },
+        {
+          "word": "坦诚"
+        },
+        {
+          "word": "改正"
+        },
+        {
+          "word": "暴露"
+        }
+      ],
+      "meaningUpright": "以策略与 cunning 应对局面，或涉及 deception 与回避。审视手段是否正当。",
+      "meaningReversed": "坦白坦诚，改正过往的欺骗。隐瞒暴露，回归正直。",
+      "sort": 56
+    },
+    {
+      "cardId": "swords-08",
+      "name": "宝剑八",
+      "englishName": "Swords 8",
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 8,
+      "element": "air",
+      "keywordsUpright": [
+        {
+          "word": "束缚"
+        },
+        {
+          "word": " self-limiting"
+        },
+        {
+          "word": " trapped"
+        },
+        {
+          "word": "恐惧"
+        },
+        {
+          "word": "无力"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "释放"
+        },
+        {
+          "word": "觉醒"
+        },
+        {
+          "word": "挣脱束缚"
+        },
+        {
+          "word": "看清真相"
+        }
+      ],
+      "meaningUpright": "被自我设限与恐惧束缚，感到 trapped。束缚多源于心，而非外在。",
+      "meaningReversed": "从自我束缚中觉醒释放，看清真相挣脱枷锁。找回力量。",
+      "sort": 57
+    },
+    {
+      "cardId": "swords-09",
+      "name": "宝剑九",
+      "englishName": "Swords 9",
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 9,
+      "element": "air",
+      "keywordsUpright": [
+        {
+          "word": "焦虑"
+        },
+        {
+          "word": "噩梦"
+        },
+        {
+          "word": " grief"
+        },
+        {
+          "word": " insomnia"
+        },
+        {
+          "word": "担忧"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": " hope"
+        },
+        {
+          "word": "恢复"
+        },
+        {
+          "word": "看清恐惧"
+        },
+        {
+          "word": "释然"
+        }
+      ],
+      "meaningUpright": "深陷焦虑与噩梦般的担忧。心魔放大恐惧，grief 与失眠困扰。",
+      "meaningReversed": "从焦虑中看见 hope，恐惧被看清而释然。黎明将至。",
+      "sort": 58
+    },
+    {
+      "cardId": "swords-10",
+      "name": "宝剑十",
+      "englishName": "Swords 10",
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 10,
+      "element": "air",
+      "keywordsUpright": [
+        {
+          "word": "终结"
+        },
+        {
+          "word": "崩塌"
+        },
+        {
+          "word": " rock bottom"
+        },
+        {
+          "word": "痛苦终结"
+        },
+        {
+          "word": "放下"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": " recovery"
+        },
+        {
+          "word": "重生"
+        },
+        {
+          "word": "最坏已过"
+        },
+        {
+          "word": "回升"
+        }
+      ],
+      "meaningUpright": "痛苦的彻底终结，触底 rock bottom。最深的黑暗之后，黎明终将到来。",
+      "meaningReversed": "痛苦的终结与 recovery，最坏已过，迎来重生回升。",
+      "sort": 59
+    },
+    {
+      "cardId": "swords-11",
+      "name": "宝剑侍从",
+      "englishName": "Swords 11",
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 11,
+      "element": "air",
+      "keywordsUpright": [
+        {
+          "word": "好奇"
+        },
+        {
+          "word": "机敏"
+        },
+        {
+          "word": "新想法"
+        },
+        {
+          "word": "学习"
+        },
+        {
+          "word": " vigilance"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": " gossip"
+        },
+        {
+          "word": "急躁"
+        },
+        {
+          "word": "浅薄"
+        },
+        {
+          "word": " miscommunication"
+        }
+      ],
+      "meaningUpright": "机敏好奇的思考学徒。以敏锐心智探索新想法，保持 vigilance 与求知。",
+      "meaningReversed": "流于 gossip 或浅薄急躁，沟通失误。需要深入思考与谨慎言行。",
+      "sort": 60
+    },
+    {
+      "cardId": "swords-12",
+      "name": "宝剑骑士",
+      "englishName": "Swords 12",
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 12,
+      "element": "air",
+      "keywordsUpright": [
+        {
+          "word": "果断"
+        },
+        {
+          "word": "直言"
+        },
+        {
+          "word": " intellect"
+        },
+        {
+          "word": "急切"
+        },
+        {
+          "word": "正义"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "冲动"
+        },
+        {
+          "word": "ruthless"
+        },
+        {
+          "word": " tactless"
+        },
+        {
+          "word": "冒进"
+        }
+      ],
+      "meaningUpright": "果断直言的理智骑士。以 sharp 智慧与急切行动捍卫正义，雷厉风行。",
+      "meaningReversed": "冲动 ruthless 或 tactless，冒进伤人。需要审时度势，三思而行。",
+      "sort": 61
+    },
+    {
+      "cardId": "swords-13",
+      "name": "宝剑王后",
+      "englishName": "Swords 13",
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 13,
+      "element": "air",
+      "keywordsUpright": [
+        {
+          "word": " perceptive"
+        },
+        {
+          "word": "独立"
+        },
+        {
+          "word": "理性"
+        },
+        {
+          "word": "straightforward"
+        },
+        {
+          "word": "公正"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": " cold"
+        },
+        {
+          "word": " bitter"
+        },
+        {
+          "word": " harsh"
+        },
+        {
+          "word": "severed"
+        }
+      ],
+      "meaningUpright": "洞察敏锐的理性王后。以 perceptive 与公正直言，独立而清醒。",
+      "meaningReversed": "显得 cold bitter 或 harsh，关系 severed。需要以同理心平衡锋芒。",
+      "sort": 62
+    },
+    {
+      "cardId": "swords-14",
+      "name": "宝剑国王",
+      "englishName": "Swords 14",
+      "arcana": "minor",
+      "suit": "swords",
+      "number": 14,
+      "element": "air",
+      "keywordsUpright": [
+        {
+          "word": " authority"
+        },
+        {
+          "word": " truth"
+        },
+        {
+          "word": "公正"
+        },
+        {
+          "word": " intellect"
+        },
+        {
+          "word": "决断"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "tyrannical"
+        },
+        {
+          "word": " cold"
+        },
+        {
+          "word": "manipulative"
+        },
+        {
+          "word": "冷酷"
+        }
+      ],
+      "meaningUpright": "公正严明的理智之王。以 authority 与 truth 做出理性决断，秉持正义。",
+      "meaningReversed": "tyrannical 或 manipulative 的冷酷。需要以仁慈平衡权威。",
+      "sort": 63
+    },
+    {
+      "cardId": "pentacles-01",
+      "name": "星币一",
+      "englishName": "Pentacles 1",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 1,
+      "element": "earth",
+      "keywordsUpright": [
+        {
+          "word": "机遇"
+        },
+        {
+          "word": "丰盛"
+        },
+        {
+          "word": " prosperity"
+        },
+        {
+          "word": "新投资"
+        },
+        {
+          "word": "显化"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "延迟"
+        },
+        {
+          "word": "错失"
+        },
+        {
+          "word": " scarcity"
+        },
+        {
+          "word": "计划受阻"
+        }
+      ],
+      "meaningUpright": "物质与丰盛的新机遇降临。 prosperity 的种子已种下，抓住机会显化财富。",
+      "meaningReversed": "机遇延迟或错失，感到 scarcity。需要耐心等待，避免错失良机。",
+      "sort": 64
+    },
+    {
+      "cardId": "pentacles-02",
+      "name": "星币二",
+      "englishName": "Pentacles 2",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 2,
+      "element": "earth",
+      "keywordsUpright": [
+        {
+          "word": "平衡"
+        },
+        {
+          "word": "juggling"
+        },
+        {
+          "word": "灵活"
+        },
+        {
+          "word": "适应"
+        },
+        {
+          "word": "波动"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": " overwhelmed"
+        },
+        {
+          "word": "失衡"
+        },
+        {
+          "word": " overcommit"
+        },
+        {
+          "word": "混乱"
+        }
+      ],
+      "meaningUpright": "在多重事务间 juggling 平衡。灵活适应波动，权衡优先级。",
+      "meaningReversed": " overwhelmed 或 overcommit，失衡混乱。需要聚焦，减少分心。",
+      "sort": 65
+    },
+    {
+      "cardId": "pentacles-03",
+      "name": "星币三",
+      "englishName": "Pentacles 3",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 3,
+      "element": "earth",
+      "keywordsUpright": [
+        {
+          "word": "合作"
+        },
+        {
+          "word": "技艺"
+        },
+        {
+          "word": " teamwork"
+        },
+        {
+          "word": "学习"
+        },
+        {
+          "word": "精进"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "不协调"
+        },
+        {
+          "word": " discord"
+        },
+        {
+          "word": "缺乏协作"
+        },
+        {
+          "word": "平庸"
+        }
+      ],
+      "meaningUpright": "团队合作与技艺精进。各展所长协作，在学习中提升专业。",
+      "meaningReversed": "团队 discord 或缺乏协作，平庸敷衍。需要重新对齐目标与分工。",
+      "sort": 66
+    },
+    {
+      "cardId": "pentacles-04",
+      "name": "星币四",
+      "englishName": "Pentacles 4",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 4,
+      "element": "earth",
+      "keywordsUpright": [
+        {
+          "word": " security"
+        },
+        {
+          "word": " control"
+        },
+        {
+          "word": " holding"
+        },
+        {
+          "word": " stable"
+        },
+        {
+          "word": "保守"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": " loosening"
+        },
+        {
+          "word": "放手"
+        },
+        {
+          "word": " loss"
+        },
+        {
+          "word": " sharing"
+        }
+      ],
+      "meaningUpright": "追求 security 与控制，紧握所拥有。 stable 但可能过于保守吝啬。",
+      "meaningReversed": " loosening 控制，学会放手与 sharing。释放囤积，流动带来新生。",
+      "sort": 67
+    },
+    {
+      "cardId": "pentacles-05",
+      "name": "星币五",
+      "englishName": "Pentacles 5",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 5,
+      "element": "earth",
+      "keywordsUpright": [
+        {
+          "word": "匮乏"
+        },
+        {
+          "word": "困境"
+        },
+        {
+          "word": " hardship"
+        },
+        {
+          "word": " isolation"
+        },
+        {
+          "word": "寒冷"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": " recovery"
+        },
+        {
+          "word": "援助"
+        },
+        {
+          "word": "回暖"
+        },
+        {
+          "word": "走出困境"
+        }
+      ],
+      "meaningUpright": "物质与精神的匮乏困境。 hardship 中感到孤立寒冷，但援助可能近在咫尺。",
+      "meaningReversed": "从困境中 recovery，援助到来，境况回暖。走出匮乏。",
+      "sort": 68
+    },
+    {
+      "cardId": "pentacles-06",
+      "name": "星币六",
+      "englishName": "Pentacles 6",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 6,
+      "element": "earth",
+      "keywordsUpright": [
+        {
+          "word": "慷慨"
+        },
+        {
+          "word": " giving"
+        },
+        {
+          "word": "平衡"
+        },
+        {
+          "word": " charity"
+        },
+        {
+          "word": "分享"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "失衡"
+        },
+        {
+          "word": " strings attached"
+        },
+        {
+          "word": " debt"
+        },
+        {
+          "word": "一方付出"
+        }
+      ],
+      "meaningUpright": "慷慨给予与平衡分享。以 charity 与公正分配资源，给予亦收获。",
+      "meaningReversed": "给予失衡或带有 strings attached，陷入 debt。需要重建公平的给予。",
+      "sort": 69
+    },
+    {
+      "cardId": "pentacles-07",
+      "name": "星币七",
+      "englishName": "Pentacles 7",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 7,
+      "element": "earth",
+      "keywordsUpright": [
+        {
+          "word": " patience"
+        },
+        {
+          "word": "评估"
+        },
+        {
+          "word": "等待"
+        },
+        {
+          "word": " investment"
+        },
+        {
+          "word": "反思"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": " impatience"
+        },
+        {
+          "word": "徒劳"
+        },
+        {
+          "word": "短视"
+        },
+        {
+          "word": "失望"
+        }
+      ],
+      "meaningUpright": "耐心等待 investment 的成果。停下评估进展，反思付出与回报。",
+      "meaningReversed": " impatient 或感到徒劳，短视失望。需要调整策略，耐心坚持。",
+      "sort": 70
+    },
+    {
+      "cardId": "pentacles-08",
+      "name": "星币八",
+      "englishName": "Pentacles 8",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 8,
+      "element": "earth",
+      "keywordsUpright": [
+        {
+          "word": "技艺"
+        },
+        {
+          "word": " diligence"
+        },
+        {
+          "word": "精进"
+        },
+        {
+          "word": "craftsmanship"
+        },
+        {
+          "word": "专注"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": " perfectionism"
+        },
+        {
+          "word": "乏味"
+        },
+        {
+          "word": "缺乏专注"
+        },
+        {
+          "word": "敷衍"
+        }
+      ],
+      "meaningUpright": "以 diligence 与专注精进技艺。在 craftsmanship 中打磨专业，勤勉成长。",
+      "meaningReversed": " perfectionism 或乏味敷衍，缺乏专注。需要找回热忱与节奏。",
+      "sort": 71
+    },
+    {
+      "cardId": "pentacles-09",
+      "name": "星币九",
+      "englishName": "Pentacles 9",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 9,
+      "element": "earth",
+      "keywordsUpright": [
+        {
+          "word": "独立"
+        },
+        {
+          "word": "丰盛"
+        },
+        {
+          "word": " self-sufficient"
+        },
+        {
+          "word": "享受成果"
+        },
+        {
+          "word": "优雅"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "依赖"
+        },
+        {
+          "word": " insecurity"
+        },
+        {
+          "word": "false wealth"
+        },
+        {
+          "word": "失衡"
+        }
+      ],
+      "meaningUpright": "独立而丰盛的 self-sufficient 状态。享受自己努力换来的成果与优雅。",
+      "meaningReversed": "依赖他人或 insecurity， false wealth 掩盖问题。需要建立真实自立。",
+      "sort": 72
+    },
+    {
+      "cardId": "pentacles-10",
+      "name": "星币十",
+      "englishName": "Pentacles 10",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 10,
+      "element": "earth",
+      "keywordsUpright": [
+        {
+          "word": "传承"
+        },
+        {
+          "word": " wealth"
+        },
+        {
+          "word": "家庭"
+        },
+        {
+          "word": " lasting"
+        },
+        {
+          "word": "稳固"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": "家庭纷争"
+        },
+        {
+          "word": " loss"
+        },
+        {
+          "word": "legacy受损"
+        },
+        {
+          "word": "不稳"
+        }
+      ],
+      "meaningUpright": "世代传承的 wealth 与稳固根基。家庭与事业的 lasting 成就。",
+      "meaningReversed": "家庭纷争或财富 loss， legacy 受损。需要修复根基与传承。",
+      "sort": 73
+    },
+    {
+      "cardId": "pentacles-11",
+      "name": "星币侍从",
+      "englishName": "Pentacles 11",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 11,
+      "element": "earth",
+      "keywordsUpright": [
+        {
+          "word": "学习"
+        },
+        {
+          "word": "机遇"
+        },
+        {
+          "word": " diligent"
+        },
+        {
+          "word": "新投资"
+        },
+        {
+          "word": "务实"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": " lazy"
+        },
+        {
+          "word": " procrastinate"
+        },
+        {
+          "word": "浅尝辄止"
+        },
+        {
+          "word": "缺乏计划"
+        }
+      ],
+      "meaningUpright": "勤奋务实的学习者。以 diligent 态度把握新机遇，务实积累。",
+      "meaningReversed": " lazy 或 procrastinate，浅尝辄止。需要脚踏实地付诸行动。",
+      "sort": 74
+    },
+    {
+      "cardId": "pentacles-12",
+      "name": "星币骑士",
+      "englishName": "Pentacles 12",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 12,
+      "element": "earth",
+      "keywordsUpright": [
+        {
+          "word": " reliable"
+        },
+        {
+          "word": "勤奋"
+        },
+        {
+          "word": " patient"
+        },
+        {
+          "word": "稳重"
+        },
+        {
+          "word": "推进"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": " stagnation"
+        },
+        {
+          "word": "固执"
+        },
+        {
+          "word": " boring"
+        },
+        {
+          "word": " stuck"
+        }
+      ],
+      "meaningUpright": "可靠勤奋的稳重骑士。以 patient 与可靠持续推进，脚踏实地达成目标。",
+      "meaningReversed": " stagnation 或固执 stuck， dull 守成。需要灵活突破瓶颈。",
+      "sort": 75
+    },
+    {
+      "cardId": "pentacles-13",
+      "name": "星币王后",
+      "englishName": "Pentacles 13",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 13,
+      "element": "earth",
+      "keywordsUpright": [
+        {
+          "word": " nurturing"
+        },
+        {
+          "word": "丰盛"
+        },
+        {
+          "word": " practical"
+        },
+        {
+          "word": " grounded"
+        },
+        {
+          "word": "滋养"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": " self-worth低"
+        },
+        {
+          "word": "依赖"
+        },
+        {
+          "word": "materialistic"
+        },
+        {
+          "word": "neglect"
+        }
+      ],
+      "meaningUpright": "滋养万物的丰盛王后。以 practical 与 grounded 创造物质与情感的丰盛。",
+      "meaningReversed": " self-worth 低或 materialistic， neglect 自身。需要回归自我滋养。",
+      "sort": 76
+    },
+    {
+      "cardId": "pentacles-14",
+      "name": "星币国王",
+      "englishName": "Pentacles 14",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "number": 14,
+      "element": "earth",
+      "keywordsUpright": [
+        {
+          "word": " mastery"
+        },
+        {
+          "word": " wealth"
+        },
+        {
+          "word": " stability"
+        },
+        {
+          "word": "可靠"
+        },
+        {
+          "word": "成就"
+        }
+      ],
+      "keywordsReversed": [
+        {
+          "word": " greedy"
+        },
+        {
+          "word": " controlling"
+        },
+        {
+          "word": "materialistic"
+        },
+        {
+          "word": "stubborn"
+        }
+      ],
+      "meaningUpright": "掌控财富与稳定的成就之王。以 mastery 与可靠奠定 lasting 基业。",
+      "meaningReversed": " greedy 或 controlling， materialistic 而 stubborn。需要以德御财。",
+      "sort": 77
+    }
+  ],
+  "spreads": [
+    {
+      "spreadId": "single",
+      "name": "单张牌",
+      "cardCount": 1,
+      "fixed": true,
+      "description": "抽一张牌快速占卜，聚焦当下最核心的讯息。适合简单直接的提问。",
+      "positions": [
+        {
+          "label": "今日指引",
+          "meaning": "此刻最需要关注的焦点与讯息"
+        }
+      ],
+      "sort": 0
+    },
+    {
+      "spreadId": "three",
+      "name": "三张牌阵",
+      "cardCount": 3,
+      "fixed": true,
+      "description": "经典三牌阵，从时间的脉络解读过去、现在与未来的走势。",
+      "positions": [
+        {
+          "label": "过去",
+          "meaning": "影响当下的过往因素与根源"
+        },
+        {
+          "label": "现在",
+          "meaning": "此刻所处的状态与核心议题"
+        },
+        {
+          "label": "未来",
+          "meaning": "若维持现状可能的发展走向"
+        }
+      ],
+      "sort": 1
+    },
+    {
+      "spreadId": "celtic",
+      "name": "凯尔特十字",
+      "cardCount": 10,
+      "fixed": true,
+      "description": "传统十张高级牌阵，全方位解读现状、阻碍、潜能与最终走向。",
+      "positions": [
+        {
+          "label": "现状",
+          "meaning": "当下的核心处境"
+        },
+        {
+          "label": "阻碍",
+          "meaning": "横亘眼前的挑战或阻力"
+        },
+        {
+          "label": "基础",
+          "meaning": "问题的深层根源与根基"
+        },
+        {
+          "label": "近期过去",
+          "meaning": "刚刚发生、影响当下的因素"
+        },
+        {
+          "label": "可能结果",
+          "meaning": "近期最可能出现的结果"
+        },
+        {
+          "label": "近期未来",
+          "meaning": "即将到来的发展"
+        },
+        {
+          "label": "自我",
+          "meaning": "你对此事的态度与立场"
+        },
+        {
+          "label": "环境",
+          "meaning": "外界人事对你的影响"
+        },
+        {
+          "label": "希望与恐惧",
+          "meaning": "内心深处的期盼与忧虑"
+        },
+        {
+          "label": "最终结果",
+          "meaning": "此事最终的总体走向"
+        }
+      ],
+      "sort": 2
+    },
+    {
+      "spreadId": "free",
+      "name": "自由抽牌",
+      "cardCount": 0,
+      "fixed": false,
+      "description": "自由选择抽取任意数量的牌，无固定位置含义，随心探索。",
+      "positions": [],
+      "sort": 3
+    }
+  ],
+  "siteContent": {
+    "site": {
+      "name": "神秘塔罗",
+      "nameEn": "Tarot Divination",
+      "footerText": "✦ 命运在你手中 ✦"
+    },
+    "home": {
+      "heroEmoji": "🌙",
+      "heroTitle": "神秘塔罗",
+      "heroSubtitle": "凝视 78 张命运之牌，聆听宇宙的低语。\n在牌阵的交错中，寻找属于你的答案。",
+      "ctaPrimary": "✦ 立即占卜",
+      "ctaSecondary": "浏览牌组",
+      "statsText": "共 78 张牌 · 4 种牌阵 · AI 个性化解读",
+      "sectionTitle": "开启你的旅程",
+      "sectionSubtitle": "三重体验，探索塔罗的奥秘",
+      "features": [
+        {
+          "title": "牌组图鉴",
+          "desc": "浏览完整的 78 张塔罗牌，探索每张牌的正逆位牌意与关键词。"
+        },
+        {
+          "title": "立即占卜",
+          "desc": "选择牌阵、抽取命运之牌，结合预设牌意与 AI 获得个性化解读。"
+        },
+        {
+          "title": "历史记录",
+          "desc": "回看每一次占卜的牌阵、抽牌结果与解读，本地私密保存。"
+        }
+      ]
+    },
+    "deck": {
+      "title": "牌组图鉴",
+      "subtitle": "点击任意一张牌，查看正逆位牌意与关键词",
+      "emptyText": "该分类下暂无卡牌",
+      "uprightLabel": "正位",
+      "reversedLabel": "逆位",
+      "uprightMeaningLabel": "正位牌意",
+      "reversedMeaningLabel": "逆位牌意",
+      "arcanaMajor": "大阿卡纳",
+      "arcanaMinor": "小阿卡纳",
+      "filterAll": "全部",
+      "filterMajor": "大阿卡纳",
+      "filterWands": "权杖",
+      "filterCups": "圣杯",
+      "filterSwords": "宝剑",
+      "filterPentacles": "星币"
+    },
+    "divine": {
+      "title": "占卜抽牌",
+      "reselectSpread": "重新选择牌阵",
+      "questionLabel": "你的问题（可选）",
+      "questionPlaceholder": "将心中的疑惑凝练成一句话，例如：我近期的感情会如何发展？",
+      "freeCountLabel": "抽取张数：{n} 张",
+      "drawButtonText": "洗牌抽牌",
+      "shufflingText": "命运之牌正在洗牌…",
+      "noQuestionLabel": "（无具体问题）",
+      "stepSelect": "选牌阵",
+      "stepQuestion": "提问题",
+      "stepDrawing": "抽牌",
+      "stepResult": "解牌"
+    },
+    "history": {
+      "title": "历史记录",
+      "subtitleTemplate": "共 {n} 次占卜，本地私密保存",
+      "clearButtonText": "清空",
+      "clearConfirm": "确定要清空全部历史记录吗？此操作不可恢复。",
+      "emptyEmoji": "🔮",
+      "emptyText": "还没有占卜记录",
+      "emptyCta": "开始第一次占卜",
+      "noQuestionLabel": "（无具体问题）",
+      "aiLabel": "AI 解读"
+    },
+    "about": {
+      "title": "关于我",
+      "creatorName": "胡萝卜玩偶",
+      "body": "一个热爱塔罗与像素画的创作者，用五月天胡萝卜玩偶 IP 把命运之牌画成怪诞又治愈的样子。这里收录了 78 张原创牌面与牌意，愿你在这里找到属于自己的答案。",
+      "imageUrl": "",
+      "ipStory": "五月天胡萝卜玩偶是这个塔罗牌系列的灵魂 IP——圆滚滚、带着一点傻气，却总能在牌阵里说出最戳心的话。"
+    },
+    "contact": {
+      "title": "联系方式",
+      "subtitle": "想定制专属牌阵、约稿或聊聊塔罗？留个言吧。",
+      "email": null,
+      "showForm": true,
+      "socialLinks": []
+    }
+  },
+  "themeConfig": {
+    "primaryColor": "#FF8C42",
+    "accentColor": "#7CB342",
+    "bgImageUrl": "",
+    "bgImageSize": "tile",
+    "stickers": [],
+    "laptopFrameUrl": "",
+    "fontHeadingCN": "ZCOOL KuaiLe",
+    "fontHeadingEN": "Cinzel",
+    "fontBody": "Noto Sans SC"
+  },
+  "aiConfig": {
+    "llmApiKey": "",
+    "llmBaseUrl": "https://api.openai.com/v1",
+    "llmModel": "gpt-4o-mini",
+    "systemPrompt": "",
+    "enableAi": false
+  }
+}

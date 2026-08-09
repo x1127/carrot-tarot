@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "theme_configs",
+  "info": {
+    "singularName": "theme-config",
+    "pluralName": "theme-configs",
+    "displayName": "主题配置",
+    "description": "像素背景、浮动贴纸、字体、主色调"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "primaryColor": { "type": "string", "default": "#FF8C42" },
+    "accentColor": { "type": "string", "default": "#7CB342" },
+    "bgImageUrl": { "type": "string" },
+    "bgImageSize": {
+      "type": "enumeration",
+      "enum": ["cover", "tile"],
+      "default": "tile"
+    },
+    "stickers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "theme.sticker"
+    },
+    "laptopFrameUrl": { "type": "string" },
+    "fontHeadingCN": { "type": "string", "default": "ZCOOL KuaiLe" },
+    "fontHeadingEN": { "type": "string", "default": "Cinzel" },
+    "fontBody": { "type": "string", "default": "Noto Sans SC" }
+  }
+}

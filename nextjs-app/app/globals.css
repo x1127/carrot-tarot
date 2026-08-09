@@ -1,0 +1,228 @@
+@import "tailwindcss";
+
+/* ===== 胡萝卜塔罗 主题变量 =====
+   怪诞 · 治愈 · 复古 · 童趣
+   16-bit 像素森林 + 拼贴扁平贴纸 + 笔记本 Mockup */
+
+@theme inline {
+  /* 主色板 */
+  --color-primary: #ff8c42;       /* 胡萝卜橙 */
+  --color-primary-deep: #e6731f;
+  --color-accent: #7cb342;        /* 森林绿 */
+  --color-accent-deep: #558b2f;
+  --color-cream: #fff8e7;         /* 米白底 */
+  --color-bark: #5d4037;          /* 深棕（笔记本框/文字） */
+  --color-ink: #3e2723;           /* 深墨（正文） */
+  --color-sky: #b3e5fc;           /* 像素天空蓝 */
+  --color-sun: #ffd54f;           /* 像素阳光黄 */
+
+  /* 字体（由 next/font 注入 CSS 变量） */
+  --font-heading-cn: var(--font-zcool), "ZCOOL KuaiLe", "Noto Sans SC", sans-serif;
+  --font-script: var(--font-mashan), "Ma Shan Zheng", "Noto Sans SC", cursive;
+  --font-logo: var(--font-cinzel), "Cinzel", Georgia, serif;
+  --font-body: var(--font-noto), "Noto Sans SC", system-ui, sans-serif;
+  --font-pixel: var(--font-noto), "Noto Sans SC", monospace;
+
+  /* 动画时长（后台可关闭） */
+  --anim-duration: 1s;
+}
+
+:root {
+  /* 主题色由 ContentProvider 运行时覆盖 */
+  --theme-primary: #ff8c42;
+  --theme-accent: #7cb342;
+  --theme-bg: #fff8e7;
+  --theme-bark: #5d4037;
+  --pixel-bg-url: none;
+  --pixel-bg-size: 256px;
+  --anim-on: 1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-ink);
+  background-color: var(--theme-bg);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* 像素森林平铺背景层（fixed 全屏，贴纸浮于其上） */
+.pixel-bg-layer {
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background-color: var(--theme-bg);
+  background-image: var(--pixel-bg-url);
+  background-repeat: repeat;
+  background-size: var(--pixel-bg-size);
+  background-position: top center;
+  /* 像素图放大时保持硬边 */
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+/* 像素尘埃粒子层 */
+.pixel-dust-layer {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.pixel-dust {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  background: var(--color-sun);
+  border-radius: 50%;
+  opacity: 0;
+  animation: dust-float var(--dust-duration, 8s) linear infinite;
+  animation-delay: var(--dust-delay, 0s);
+}
+
+@keyframes dust-float {
+  0% { transform: translateY(100vh) translateX(0); opacity: 0; }
+  10% { opacity: 0.8; }
+  90% { opacity: 0.6; }
+  100% { transform: translateY(-10vh) translateX(var(--dust-drift, 20px)); opacity: 0; }
+}
+
+/* 浮动贴纸动画 */
+.sticker-float {
+  animation: sticker-float var(--float-speed, 5s) ease-in-out infinite;
+  animation-delay: var(--float-delay, 0s);
+}
+
+@keyframes sticker-float {
+  0%, 100% { transform: translateY(0) rotate(var(--sticker-rot, -3deg)); }
+  50% { transform: translateY(calc(-1 * var(--float-range, 12px))) rotate(calc(var(--sticker-rot, -3deg) + 2deg)); }
+}
+
+/* 笔记本 Mockup 外框 */
+.laptop-mockup {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.laptop-screen {
+  position: relative;
+  background: #2b2b2b;
+  border-radius: 16px 16px 0 0;
+  padding: 14px 14px 0 14px;
+  box-shadow: 0 20px 50px -10px rgba(0, 0, 0, 0.4), 0 0 0 2px var(--theme-bark);
+}
+
+.laptop-screen-inner {
+  background: var(--color-cream);
+  border-radius: 6px;
+  overflow: hidden;
+  min-height: 420px;
+  position: relative;
+}
+
+/* 顶部「刘海」摄像头小点 */
+.laptop-notch {
+  position: absolute;
+  top: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #555;
+  z-index: 2;
+}
+
+.laptop-base {
+  position: relative;
+  height: 18px;
+  background: linear-gradient(to bottom, #c9c9c9, #9a9a9a);
+  border-radius: 0 0 12px 12px;
+  margin: 0 -6px;
+  box-shadow: 0 4px 10px -2px rgba(0, 0, 0, 0.3);
+}
+
+.laptop-hinge {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 6px;
+  background: #7a7a7a;
+  border-radius: 0 0 6px 6px;
+}
+
+/* 胶囊导航 */
+.capsule-nav {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+/* 卡牌翻转 */
+.card-3d {
+  transform-style: preserve-3d;
+  transition: transform 0.6s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+.card-3d.is-flipped {
+  transform: rotateY(180deg);
+}
+.card-face {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.card-face-back {
+  transform: rotateY(180deg);
+}
+
+/* 通用像素风按钮 */
+.pixel-btn {
+  font-family: var(--font-heading-cn);
+  border: 3px solid var(--color-ink);
+  box-shadow: 4px 4px 0 var(--color-ink);
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+.pixel-btn:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0 var(--color-ink);
+}
+.pixel-btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0 var(--color-ink);
+}
+
+/* 标题字体类 */
+.font-heading-cn { font-family: var(--font-heading-cn); }
+.font-script { font-family: var(--font-script); }
+.font-logo { font-family: var(--font-logo); }
+
+/* 滚动条 */
+::-webkit-scrollbar { width: 12px; height: 12px; }
+::-webkit-scrollbar-track { background: var(--color-cream); }
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+  border: 3px solid var(--color-cream);
+  border-radius: 6px;
+}
+
+/* 动画关闭时（后台 enableAnimations=false） */
+.no-anim .sticker-float,
+.no-anim .pixel-dust,
+.no-anim .card-3d {
+  animation: none !important;
+  transition: none !important;
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_site_divine_sections",
+  "info": {
+    "displayName": "占卜页文案",
+    "icon": "wand",
+    "description": "自定义占卜页的步骤与按钮文案"
+  },
+  "attributes": {
+    "title": { "type": "string" },
+    "reselectSpread": { "type": "string" },
+    "questionLabel": { "type": "string" },
+    "questionPlaceholder": { "type": "text" },
+    "freeCountLabel": { "type": "string" },
+    "drawButtonText": { "type": "string" },
+    "shufflingText": { "type": "string" },
+    "noQuestionLabel": { "type": "string" },
+    "stepSelect": { "type": "string" },
+    "stepQuestion": { "type": "string" },
+    "stepDrawing": { "type": "string" },
+    "stepResult": { "type": "string" }
+  }
+}

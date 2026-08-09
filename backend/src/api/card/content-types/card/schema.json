@@ -1,0 +1,69 @@
+{
+  "collectionName": "cards",
+  "info": {
+    "singularName": "card",
+    "pluralName": "cards",
+    "displayName": "塔罗牌",
+    "description": "78 张塔罗牌（22 大阿卡纳 + 56 小阿卡纳）"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cardId": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "englishName": {
+      "type": "string"
+    },
+    "arcana": {
+      "type": "enumeration",
+      "enum": ["major", "minor"],
+      "required": true
+    },
+    "suit": {
+      "type": "enumeration",
+      "enum": ["wands", "cups", "swords", "pentacles"]
+    },
+    "number": {
+      "type": "integer"
+    },
+    "element": {
+      "type": "enumeration",
+      "enum": ["fire", "water", "air", "earth"]
+    },
+    "image": {
+      "type": "media",
+      "allowedTypes": ["images"],
+      "multiple": false,
+      "required": false
+    },
+    "keywordsUpright": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tarot.keyword"
+    },
+    "keywordsReversed": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tarot.keyword"
+    },
+    "meaningUpright": {
+      "type": "text"
+    },
+    "meaningReversed": {
+      "type": "text"
+    },
+    "sort": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

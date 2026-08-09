@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_site_about_sections",
+  "info": {
+    "displayName": "关于我文案",
+    "icon": "user",
+    "description": "关于我页的创作者介绍与 IP 故事"
+  },
+  "attributes": {
+    "title": { "type": "string" },
+    "creatorName": { "type": "string" },
+    "body": { "type": "richtext" },
+    "imageUrl": { "type": "string" },
+    "ipStory": { "type": "text" }
+  }
+}

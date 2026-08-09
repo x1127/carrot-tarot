@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_tarot_spread_positions",
+  "info": {
+    "displayName": "牌阵位置",
+    "icon": "drag",
+    "description": "牌阵中一个位置及其含义"
+  },
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "meaning": {
+      "type": "string"
+    }
+  }
+}

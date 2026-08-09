@@ -1,0 +1,46 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+build
+.next
+.vite
+
+# Environment files (含密钥，切勿提交)
+.env
+.env.local
+.env.*.local
+
+# Database & temp
+*.sqlite
+*.sqlite3
+*.db
+.tmp
+.strapi
+.cache
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Uploads
+public/uploads/*
+!public/uploads/.gitkeep

@@ -1,0 +1,51 @@
+{
+  "kind": "singleType",
+  "collectionName": "site_contents",
+  "info": {
+    "singularName": "site-content",
+    "pluralName": "site-contents",
+    "displayName": "站点内容",
+    "description": "全站文案（导航/首页/牌组/占卜/历史/关于/联系）"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "site": {
+      "type": "component",
+      "repeatable": false,
+      "component": "site.site-info"
+    },
+    "home": {
+      "type": "component",
+      "repeatable": false,
+      "component": "site.home-section"
+    },
+    "deck": {
+      "type": "component",
+      "repeatable": false,
+      "component": "site.deck-section"
+    },
+    "divine": {
+      "type": "component",
+      "repeatable": false,
+      "component": "site.divine-section"
+    },
+    "history": {
+      "type": "component",
+      "repeatable": false,
+      "component": "site.history-section"
+    },
+    "about": {
+      "type": "component",
+      "repeatable": false,
+      "component": "site.about-section"
+    },
+    "contact": {
+      "type": "component",
+      "repeatable": false,
+      "component": "site.contact-section"
+    }
+  }
+}

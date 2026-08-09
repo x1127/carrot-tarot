@@ -1,0 +1,50 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules
+
+# Build output
+dist
+dist-ssr
+build
+
+# 环境变量（含密钥，切勿提交）
+.env
+.env.local
+.env.*.local
+*.local
+
+# 数据库与临时文件
+*.sqlite
+*.sqlite3
+*.db
+.tmp
+.cache
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Vite
+.vite
+
+# 上传的媒体（如启用）
+public/uploads/*
+!public/uploads/.gitkeep

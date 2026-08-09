@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_site_social_links",
+  "info": {
+    "displayName": "社交链接",
+    "icon": "link",
+    "description": "联系方式页的社交媒体链接"
+  },
+  "attributes": {
+    "platform": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_tarot_keywords",
+  "info": {
+    "displayName": "关键词",
+    "icon": "bullet-list",
+    "description": "正/逆位关键词"
+  },
+  "attributes": {
+    "word": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

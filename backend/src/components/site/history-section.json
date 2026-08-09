@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_site_history_sections",
+  "info": {
+    "displayName": "历史页文案",
+    "icon": "clock",
+    "description": "历史记录页的标题与空状态文案"
+  },
+  "attributes": {
+    "title": { "type": "string" },
+    "subtitleTemplate": { "type": "string" },
+    "clearButtonText": { "type": "string" },
+    "clearConfirm": { "type": "string" },
+    "emptyEmoji": { "type": "string" },
+    "emptyText": { "type": "string" },
+    "emptyCta": { "type": "string" },
+    "noQuestionLabel": { "type": "string" },
+    "aiLabel": { "type": "string" }
+  }
+}

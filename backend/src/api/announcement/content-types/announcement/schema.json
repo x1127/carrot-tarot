@@ -1,0 +1,38 @@
+{
+  "collectionName": "announcements",
+  "info": {
+    "singularName": "announcement",
+    "pluralName": "announcements",
+    "displayName": "活动公告",
+    "description": "顶部 Banner / 首屏弹窗公告，支持生效期"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": ["banner", "popup"],
+      "default": "banner",
+      "required": true
+    },
+    "startDate": {
+      "type": "datetime"
+    },
+    "endDate": {
+      "type": "datetime"
+    },
+    "dismissible": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

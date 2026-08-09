@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_site_contact_sections",
+  "info": {
+    "displayName": "联系方式文案",
+    "icon": "mail",
+    "description": "联系方式页的标题与社交链接"
+  },
+  "attributes": {
+    "title": { "type": "string" },
+    "subtitle": { "type": "string" },
+    "email": { "type": "email" },
+    "showForm": { "type": "boolean", "default": true },
+    "socialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "site.social-link"
+    }
+  }
+}

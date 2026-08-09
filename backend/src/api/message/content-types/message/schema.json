@@ -1,0 +1,30 @@
+{
+  "collectionName": "messages",
+  "info": {
+    "singularName": "message",
+    "pluralName": "messages",
+    "displayName": "留言",
+    "description": "联系方式页提交的留言"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email"
+    },
+    "message": {
+      "type": "text",
+      "required": true
+    },
+    "handled": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

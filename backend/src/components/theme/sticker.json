@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_theme_stickers",
+  "info": {
+    "displayName": "浮动贴纸",
+    "icon": "picture",
+    "description": "漂浮于像素背景之上的卡通贴纸"
+  },
+  "attributes": {
+    "src": {
+      "type": "string",
+      "required": true
+    },
+    "top": {
+      "type": "decimal",
+      "default": 10
+    },
+    "left": {
+      "type": "decimal",
+      "default": 10
+    },
+    "size": {
+      "type": "integer",
+      "default": 96
+    },
+    "floatSpeed": {
+      "type": "decimal",
+      "default": 4
+    },
+    "floatRange": {
+      "type": "integer",
+      "default": 12
+    },
+    "zIndex": {
+      "type": "integer",
+      "default": 5
+    }
+  }
+}

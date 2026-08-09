@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_site_home_sections",
+  "info": {
+    "displayName": "首页内容",
+    "icon": "home",
+    "description": "首页 Hero 与功能卡片文案"
+  },
+  "attributes": {
+    "heroEmoji": { "type": "string" },
+    "heroTitle": { "type": "string" },
+    "heroSubtitle": { "type": "text" },
+    "ctaPrimary": { "type": "string" },
+    "ctaSecondary": { "type": "string" },
+    "statsText": { "type": "string" },
+    "sectionTitle": { "type": "string" },
+    "sectionSubtitle": { "type": "string" },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "site.feature"
+    }
+  }
+}

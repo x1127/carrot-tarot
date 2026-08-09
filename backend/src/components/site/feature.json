@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_site_features",
+  "info": {
+    "displayName": "功能卡片",
+    "icon": "grid",
+    "description": "首页功能导航卡片"
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "desc": {
+      "type": "string"
+    }
+  }
+}

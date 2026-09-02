@@ -18,6 +18,7 @@ import {
   Image as ImageIcon,
   Settings,
   Key,
+  type LucideIcon,
 } from 'lucide-react';
 import { useAdminConfigStore } from '../../store/adminConfig';
 import type { CustomFont, IconType } from '../../store/adminConfig';
@@ -61,7 +62,7 @@ interface IconModule {
   key: string;
   label: string;
   group: string;
-  fallback: React.ComponentType<{ size?: number; className?: string }>;
+  fallback: LucideIcon;
 }
 
 const iconModules: IconModule[] = [

@@ -4,11 +4,12 @@ import {
   Wand2, Ghost, Cloud, Compass, Award, FlaskConical, TreePine, Anchor,
   Bird, Snowflake, Droplet, Wind, Leaf, Flower, Hexagon, Triangle,
   Circle, Square, Diamond, Fingerprint, Infinity, Atom, Orbit,
+  type LucideIcon,
 } from 'lucide-react';
 import { useAdminConfigStore } from '../store/adminConfig';
 import type { CustomIcon } from '../store/adminConfig';
 
-type IconComponent = React.ComponentType<{ size?: number; className?: string }>;
+type IconComponent = LucideIcon;
 
 // 预设图标注册表：图标名 -> 组件
 export const ICON_REGISTRY: Record<string, IconComponent> = {

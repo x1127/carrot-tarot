@@ -64,9 +64,13 @@ export async function interpretReading(req: InterpretRequest, opts: InterpretOpt
     apiConfig,
   };
 
+  // 生产环境通过 VITE_API_BASE 指向 Cloudflare Worker（如 https://api.example.com）；
+  // 本地开发留空，走 Vite 代理（/api -> http://localhost:3001）
+  const API_BASE = import.meta.env.VITE_API_BASE || '';
+
   let response: Response;
   try {
-    response = await fetch('/api/interpret', {
+    response = await fetch(`${API_BASE}/api/interpret`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       signal: opts.signal,

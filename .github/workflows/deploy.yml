@@ -1,0 +1,75 @@
+name: Deploy to Cloudflare
+
+# push 到 main 分支即自动部署：
+#   frontend/ 变更 -> 构建并发布到 Cloudflare Pages（项目名 carrot-tarot）
+#   worker/   变更 -> 发布到 Cloudflare Workers（carrot-tarot-api）
+# 也支持在 Actions 页面手动触发（workflow_dispatch）
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'frontend/**'
+      - 'worker/**'
+      - '.github/workflows/deploy.yml'
+  workflow_dispatch:
+
+jobs:
+  deploy-pages:
+    name: Build & Deploy Frontend (Cloudflare Pages)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Install dependencies
+        working-directory: frontend
+        run: npm ci
+
+      - name: Build
+        working-directory: frontend
+        env:
+          # 指向 Cloudflare Worker 的地址，例如 https://api.example.com
+          # 或 https://carrot-tarot-api.<你的子域>.workers.dev
+          # 在 GitHub 仓库 Settings -> Secrets and variables -> Actions 中配置
+          VITE_API_BASE: ${{ secrets.VITE_API_BASE }}
+        run: npm run build
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy frontend/dist --project-name=carrot-tarot --branch=main
+
+  deploy-worker:
+    name: Deploy API (Cloudflare Workers)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: worker/package-lock.json
+
+      - name: Install dependencies
+        working-directory: worker
+        run: npm ci
+
+      - name: Deploy to Cloudflare Workers
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: worker
+          command: deploy

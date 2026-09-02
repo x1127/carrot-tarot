@@ -1,0 +1,18 @@
+name = "carrot-tarot-api"
+main = "src/index.ts"
+compatibility_date = "2025-09-01"
+
+# 部署方式：
+#   1. 自动：push 到 GitHub main 分支后由 .github/workflows/deploy.yml 执行 wrangler deploy
+#   2. 手动：在本目录执行 npx wrangler deploy
+#
+# 密钥 / 环境变量（不要写在此文件中）：
+#   控制台 Workers & Pages → carrot-tarot-api → Settings → Variables and Secrets
+#     LLM_API_KEY  （必填，OpenAI 兼容接口密钥）
+#     LLM_BASE_URL （可选，默认 https://api.openai.com/v1）
+#     LLM_MODEL    （可选，默认 gpt-4o-mini）
+#   或命令行：npx wrangler secret put LLM_API_KEY
+#
+# 自定义域名（如 api.example.com）：
+#   控制台 Workers & Pages → carrot-tarot-api → Settings → Domains & Routes → Add → Custom Domain
+#   （域名需已接入 Cloudflare DNS，添加后自动创建解析记录）
